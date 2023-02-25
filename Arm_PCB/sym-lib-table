@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "SSRT_Arm_Library")(type "KiCad")(uri "${KIPRJMOD}/SSRT_Arm_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Arduino_Library")(type "KiCad")(uri "${KIPRJMOD}/arduino-kicad-library-master/arduino.kicad_sym")(options "")(descr ""))
 )
