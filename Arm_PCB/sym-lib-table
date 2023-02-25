@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "SSRT_Arm_Library")(type "KiCad")(uri "${KIPRJMOD}/SSRT_Arm_Library.kicad_sym")(options "")(descr ""))
+)
