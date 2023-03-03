@@ -2,7 +2,7 @@
 
   (uuid c8ef6be9-9c99-4424-966a-5cc6b03a43b7)
 
-  (paper "A4")
+  (paper "USLetter")
 
   (lib_symbols
     (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
