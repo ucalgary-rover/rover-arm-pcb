@@ -16,3 +16,9 @@ A custom robot arm control PCB for the 2023 SSRT rover.
 ## Methodology
 * PCB is designed in KiCAD v7.0.
 * PCB design is used as a teaching tool, so simplicity and likelihood of success was prioritized
+
+## Dependencies
+https://github.com/Alarm-Siren/arduino-kicad-library
+
+## Opportunities for Impovement
+* Use an encoder/decoder for the EN pins, instead of using so many pins on the microcontroller.
