@@ -5,6 +5,69 @@
   (paper "USLetter")
 
   (lib_symbols
+    (symbol "Device:Buzzer" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "BZ" (at 3.81 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Buzzer" (at 3.81 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at -0.635 2.54 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at -0.635 2.54 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "quartz resonator ceramic" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Buzzer, polarized" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*Buzzer*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Buzzer_0_1"
+        (arc (start 0 -3.175) (mid 3.1612 0) (end 0 3.175)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.651 1.905)
+            (xy -1.143 1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.397 2.159)
+            (xy -1.397 1.651)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 3.175)
+            (xy 0 -3.175)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Buzzer_1_1"
+        (pin passive line (at -2.54 2.54 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 -2.54 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -325,9 +388,6 @@
     )
   )
 
-  (junction (at 64.77 168.91) (diameter 0) (color 0 0 0 0)
-    (uuid 06243d43-e7cf-4109-94a8-27ca9e9ab523)
-  )
   (junction (at 35.56 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 07b79d9c-3b8d-4cdb-8a94-ad2ea187907a)
   )
@@ -355,12 +415,6 @@
   (junction (at 64.77 133.35) (diameter 0) (color 0 0 0 0)
     (uuid 812eeafe-dd12-403b-8cb9-11bb477709c7)
   )
-  (junction (at 64.77 160.02) (diameter 0) (color 0 0 0 0)
-    (uuid b041f699-2d8e-4fd1-8eda-47bec660d82e)
-  )
-  (junction (at 64.77 151.13) (diameter 0) (color 0 0 0 0)
-    (uuid b8eddca2-1cd3-4e3f-8aef-dc52a30b0f88)
-  )
   (junction (at 64.77 142.24) (diameter 0) (color 0 0 0 0)
     (uuid cdee4b9f-ce7d-4b6f-a4e2-f6f79346c47a)
   )
@@ -374,10 +428,6 @@
   (wire (pts (xy 35.56 142.24) (xy 41.91 142.24))
     (stroke (width 0) (type default))
     (uuid 033d27c6-0407-4f6c-a2ae-67b8b9cbe4ee)
-  )
-  (wire (pts (xy 64.77 142.24) (xy 64.77 151.13))
-    (stroke (width 0) (type default))
-    (uuid 0790d8b2-a291-41fb-9644-0125daaee666)
   )
   (wire (pts (xy 58.42 64.77) (xy 68.58 64.77))
     (stroke (width 0) (type default))
@@ -399,13 +449,9 @@
     (stroke (width 0) (type default))
     (uuid 142e02c2-509f-42b0-a0e5-67a035aa2a1f)
   )
-  (wire (pts (xy 49.53 160.02) (xy 50.8 160.02))
+  (wire (pts (xy 172.72 44.45) (xy 176.53 44.45))
     (stroke (width 0) (type default))
-    (uuid 1d2104c8-8c2f-4a9b-9991-1aed44a4b47e)
-  )
-  (wire (pts (xy 64.77 151.13) (xy 64.77 160.02))
-    (stroke (width 0) (type default))
-    (uuid 1f063f09-02c5-48a2-9383-954e9726231f)
+    (uuid 1968247b-c62f-4b06-97dd-d5bffc67f719)
   )
   (wire (pts (xy 128.27 55.88) (xy 135.89 55.88))
     (stroke (width 0) (type default))
@@ -422,10 +468,6 @@
   (wire (pts (xy 35.56 73.66) (xy 41.91 73.66))
     (stroke (width 0) (type default))
     (uuid 26eb7a63-b962-4d80-8e92-518535f09c29)
-  )
-  (wire (pts (xy 49.53 151.13) (xy 50.8 151.13))
-    (stroke (width 0) (type default))
-    (uuid 282c905b-3f8d-468e-87ec-7402adbfd728)
   )
   (wire (pts (xy 106.68 33.02) (xy 106.68 35.56))
     (stroke (width 0) (type default))
@@ -487,10 +529,6 @@
     (stroke (width 0) (type default))
     (uuid 4539aadb-a2e9-44af-9965-05f7ef7a7d2e)
   )
-  (wire (pts (xy 49.53 168.91) (xy 50.8 168.91))
-    (stroke (width 0) (type default))
-    (uuid 45c9ab5d-508c-4a10-bb50-0eb284663a6e)
-  )
   (wire (pts (xy 35.56 29.21) (xy 41.91 29.21))
     (stroke (width 0) (type default))
     (uuid 472bcb64-7d04-4e2b-a0de-1393a346dabe)
@@ -507,9 +545,9 @@
     (stroke (width 0) (type default))
     (uuid 50227869-53ae-41a3-a6a4-865b18067cfb)
   )
-  (wire (pts (xy 58.42 168.91) (xy 64.77 168.91))
+  (wire (pts (xy 171.45 39.37) (xy 176.53 39.37))
     (stroke (width 0) (type default))
-    (uuid 5c8f944f-e89b-4591-83d6-cbf1ee4e4650)
+    (uuid 5c0a1dbb-b6bf-4a83-b96a-39adcef5ecb3)
   )
   (wire (pts (xy 106.68 53.34) (xy 106.68 55.88))
     (stroke (width 0) (type default))
@@ -519,6 +557,10 @@
     (stroke (width 0) (type default))
     (uuid 6b1f081c-cf50-4be7-a6ce-4e216127c95f)
   )
+  (wire (pts (xy 172.72 48.26) (xy 172.72 44.45))
+    (stroke (width 0) (type default))
+    (uuid 6c8ebb35-8b71-499c-88ee-9e64b2ebc367)
+  )
   (wire (pts (xy 49.53 115.57) (xy 50.8 115.57))
     (stroke (width 0) (type default))
     (uuid 735891ed-8389-41c3-b415-b973ad6c702c)
@@ -527,17 +569,9 @@
     (stroke (width 0) (type default))
     (uuid 7758223f-1b33-4a3d-a8ad-61d5f99d6060)
   )
-  (wire (pts (xy 58.42 151.13) (xy 64.77 151.13))
-    (stroke (width 0) (type default))
-    (uuid 7a4a0e6d-4f79-4444-967e-1e8665519419)
-  )
   (wire (pts (xy 58.42 55.88) (xy 68.58 55.88))
     (stroke (width 0) (type default))
     (uuid 7f52b1e9-9aa2-492f-a20f-08f123cd266b)
-  )
-  (wire (pts (xy 41.91 160.02) (xy 35.56 160.02))
-    (stroke (width 0) (type default))
-    (uuid 80a84fb0-239a-48e5-b48c-9c9ac8414212)
   )
   (wire (pts (xy 58.42 106.68) (xy 64.77 106.68))
     (stroke (width 0) (type default))
@@ -547,7 +581,7 @@
     (stroke (width 0) (type default))
     (uuid 8a23d963-5b52-40ee-b096-4579959d036a)
   )
-  (wire (pts (xy 64.77 168.91) (xy 64.77 177.8))
+  (wire (pts (xy 64.77 142.24) (xy 64.77 149.86))
     (stroke (width 0) (type default))
     (uuid 90302571-fe25-4560-bc5e-d4bfe9707e31)
   )
@@ -570,10 +604,6 @@
   (wire (pts (xy 49.53 29.21) (xy 50.8 29.21))
     (stroke (width 0) (type default))
     (uuid 9ca03a28-5d8b-492b-b211-e26205150558)
-  )
-  (wire (pts (xy 58.42 160.02) (xy 64.77 160.02))
-    (stroke (width 0) (type default))
-    (uuid 9d2f2afd-73e9-4f5a-8513-f3198482c9dc)
   )
   (wire (pts (xy 49.53 82.55) (xy 50.8 82.55))
     (stroke (width 0) (type default))
@@ -606,10 +636,6 @@
   (wire (pts (xy 35.56 29.21) (xy 35.56 38.1))
     (stroke (width 0) (type default))
     (uuid c2965eef-feeb-4072-86a9-7a3c601b6666)
-  )
-  (wire (pts (xy 41.91 168.91) (xy 35.56 168.91))
-    (stroke (width 0) (type default))
-    (uuid cabba741-1df2-4e9e-b240-a7feb42b8d52)
   )
   (wire (pts (xy 35.56 73.66) (xy 35.56 82.55))
     (stroke (width 0) (type default))
@@ -651,17 +677,9 @@
     (stroke (width 0) (type default))
     (uuid e598c524-cefd-4ad9-a74c-f105fab5d65a)
   )
-  (wire (pts (xy 64.77 160.02) (xy 64.77 168.91))
-    (stroke (width 0) (type default))
-    (uuid f4af89b1-d89f-4646-8211-319418a8b5b6)
-  )
   (wire (pts (xy 119.38 35.56) (xy 120.65 35.56))
     (stroke (width 0) (type default))
     (uuid f6fd6fb8-c6ba-46d8-aaa1-9858b0ec0cab)
-  )
-  (wire (pts (xy 35.56 151.13) (xy 41.91 151.13))
-    (stroke (width 0) (type default))
-    (uuid f817700e-c081-43ae-b7c8-cd696e4102bb)
   )
   (wire (pts (xy 49.53 142.24) (xy 50.8 142.24))
     (stroke (width 0) (type default))
@@ -672,7 +690,7 @@
     (uuid fce5f61a-5060-4adb-9a04-c6c05c8978a7)
   )
 
-  (text "Push button switches are drawn\ndirectly by the microcontroller"
+  (text "Push button switches are placed\ndirectly by the microcontroller\nin the schematic"
     (at 113.03 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6741b7bb-d7e4-4043-9642-f12ede9417b5)
@@ -680,6 +698,10 @@
   (text "Power-On LEDs for each rail" (at 107.95 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8d524fd9-91c3-45a3-b3fa-0e404ca29e93)
+  )
+  (text "GP Buzzer\nBuzz on boot (for crash detection)" (at 158.75 34.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d479b025-ea8f-440f-9a45-7119e3494394)
   )
   (text "General-Purpose LEDs" (at 58.42 97.79 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -690,13 +712,6 @@
     (uuid f71ab1b8-ccea-4a14-9ad6-fbe805afb0ba)
   )
 
-  (global_label "LED6" (shape input) (at 35.56 160.02 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 062b2d46-2e5b-4553-8f28-98fdda853a4e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 27.9976 160.02 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "M6_EN" (shape input) (at 68.58 82.55 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0aba5e5e-2e25-4cf1-8675-dfecbcba8c92)
@@ -725,10 +740,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED7" (shape input) (at 35.56 168.91 180) (fields_autoplaced)
+  (global_label "BUZZER0" (shape input) (at 171.45 39.37 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 328984c1-7b44-4cec-9f2b-cf47b809200a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 27.9976 168.91 0)
+    (uuid 3eea8818-b13a-49fc-ad2a-b47ff57c2302)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 159.8962 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -781,13 +796,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED5" (shape input) (at 35.56 151.13 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ed4d6010-510e-47bd-bbf5-544cbc695a49)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 27.9976 151.13 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "M3_EN" (shape input) (at 68.58 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f88eb8fb-cb45-4ca7-a124-0c618338969a)
@@ -799,7 +807,7 @@
   (symbol (lib_id "power:+5V") (at 35.56 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00dbbfc2-8b63-43e5-b99b-1c041a38d8ef)
-    (property "Reference" "#PWR?" (at 35.56 31.75 0)
+    (property "Reference" "#PWR070" (at 35.56 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 35.56 24.13 0)
@@ -815,33 +823,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 54.61 160.02 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 082de3b7-e2d1-43c0-b303-6728e97feb78)
-    (property "Reference" "D17" (at 54.61 154.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LED" (at 54.61 157.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 54.61 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 54.61 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc231527-1f4f-42b9-a91d-c751a2210a4d))
-    (pin "2" (uuid 8314be8a-2cf9-4667-a0d9-2c00a2761951))
-    (instances
-      (project "Arm_PCB"
-        (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D17") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -850,7 +832,7 @@
   (symbol (lib_id "Device:R") (at 45.72 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a9d1355-a430-4ed8-91f3-be6c5e682326)
-    (property "Reference" "R2" (at 45.72 41.91 90)
+    (property "Reference" "R30" (at 45.72 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 44.45 90)
@@ -867,7 +849,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R2") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -902,7 +884,7 @@
   (symbol (lib_id "power:GND") (at 135.89 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16191b51-a8c7-4a1a-a528-5d66f325881d)
-    (property "Reference" "#PWR08" (at 135.89 64.77 0)
+    (property "Reference" "#PWR075" (at 135.89 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 63.5 0)
@@ -918,7 +900,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -927,7 +909,7 @@
   (symbol (lib_id "Device:R") (at 45.72 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b3fc8de-6cb5-4b87-bdc2-dfdbc7293d1e)
-    (property "Reference" "R11" (at 45.72 110.49 90)
+    (property "Reference" "R36" (at 45.72 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 113.03 90)
@@ -944,7 +926,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R11") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -953,7 +935,7 @@
   (symbol (lib_id "Device:LED") (at 54.61 142.24 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d4a4bd3-7cb9-42b0-9ff4-2da48d48dda7)
-    (property "Reference" "D15" (at 54.61 137.16 0)
+    (property "Reference" "D12" (at 54.61 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 54.61 139.7 0)
@@ -970,33 +952,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 45.72 151.13 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1fabfe19-c1ab-43fb-b8eb-fbd1d41cadcb)
-    (property "Reference" "R15" (at 45.72 146.05 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R" (at 45.72 148.59 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 45.72 152.908 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 66037d70-2952-431c-ae79-c2924883ca1b))
-    (pin "2" (uuid c8f9e524-a7ad-4251-8bf0-3659900effab))
-    (instances
-      (project "Arm_PCB"
-        (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R15") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1005,7 +961,7 @@
   (symbol (lib_id "Device:R") (at 45.72 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26661809-8178-4c9d-b3d2-cc875dfcefa7)
-    (property "Reference" "R12" (at 45.72 119.38 90)
+    (property "Reference" "R37" (at 45.72 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 121.92 90)
@@ -1022,7 +978,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R12") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1031,7 +987,7 @@
   (symbol (lib_id "Device:R") (at 45.72 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bd9e0f7-f181-47c5-8c8c-197e2c38dae4)
-    (property "Reference" "R5" (at 45.72 68.58 90)
+    (property "Reference" "R33" (at 45.72 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 71.12 90)
@@ -1048,7 +1004,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R5") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -1057,7 +1013,7 @@
   (symbol (lib_id "Device:R") (at 45.72 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cae2e92-66c7-47e5-83ac-c41d12a2c104)
-    (property "Reference" "R10" (at 45.72 101.6 90)
+    (property "Reference" "R35" (at 45.72 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 104.14 90)
@@ -1074,7 +1030,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R10") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -1106,26 +1062,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 64.77 177.8 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 64.77 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 356b644d-d01f-4ab3-a4b4-d8e4eb970c16)
-    (property "Reference" "#PWR013" (at 64.77 184.15 0)
+    (property "Reference" "#PWR071" (at 64.77 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 64.77 182.88 0)
+    (property "Value" "GND" (at 64.77 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 64.77 177.8 0)
+    (property "Footprint" "" (at 64.77 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 64.77 177.8 0)
+    (property "Datasheet" "" (at 64.77 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e78eaf0d-5dc2-42aa-b8b0-6c0ab6c5fe49))
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -1134,7 +1090,7 @@
   (symbol (lib_id "Device:LED") (at 124.46 45.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35a9f9c7-698a-4482-bc1b-9fee3ba55221)
-    (property "Reference" "D9" (at 124.46 40.64 0)
+    (property "Reference" "D17" (at 124.46 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 124.46 43.18 0)
@@ -1151,7 +1107,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D9") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -1186,7 +1142,7 @@
   (symbol (lib_id "Device:R") (at 115.57 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b008d6f-bc7e-4166-9fa4-63f6a2f444cb)
-    (property "Reference" "R9" (at 115.57 50.8 90)
+    (property "Reference" "R45" (at 115.57 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 115.57 53.34 90)
@@ -1203,7 +1159,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R9") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -1235,27 +1191,27 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 54.61 168.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 48e7c1c5-c6f1-487c-8ba2-0a1f355822b6)
-    (property "Reference" "D18" (at 54.61 163.83 0)
-      (effects (font (size 1.27 1.27)))
+  (symbol (lib_id "Device:Buzzer") (at 179.07 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4612cee2-4301-4b57-ba19-f510604d42f3)
+    (property "Reference" "BZ1" (at 182.88 41.275 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LED" (at 54.61 166.37 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "Buzzer" (at 182.88 43.815 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 54.61 168.91 0)
+    (property "Footprint" "" (at 178.435 39.37 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 54.61 168.91 0)
+    (property "Datasheet" "~" (at 178.435 39.37 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce74a3b2-f0e4-4e80-b121-b4fae24d6bb5))
-    (pin "2" (uuid 8323166c-d91f-4907-848c-6388ad6969e3))
+    (pin "1" (uuid e9bf29e0-c170-4767-81b6-63e4c2862bce))
+    (pin "2" (uuid 9b4d904a-93fc-47d5-a710-98bfebbe1ae7))
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D18") (unit 1)
+          (reference "BZ1") (unit 1)
         )
       )
     )
@@ -1264,7 +1220,7 @@
   (symbol (lib_id "Device:R") (at 45.72 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6938f672-78ef-46a0-970e-f53099ec6ea2)
-    (property "Reference" "R?" (at 45.72 24.13 90)
+    (property "Reference" "R28" (at 45.72 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 26.67 90)
@@ -1281,7 +1237,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R?") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -1290,7 +1246,7 @@
   (symbol (lib_id "Device:R") (at 45.72 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ba58d7a-c228-4027-8398-613bcb58d399)
-    (property "Reference" "R14" (at 45.72 137.16 90)
+    (property "Reference" "R39" (at 45.72 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 139.7 90)
@@ -1307,7 +1263,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R14") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -1316,7 +1272,7 @@
   (symbol (lib_id "Device:R") (at 45.72 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ee35a6e-eb71-42d4-bff2-e02575c31ec6)
-    (property "Reference" "R13" (at 45.72 128.27 90)
+    (property "Reference" "R38" (at 45.72 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 130.81 90)
@@ -1333,33 +1289,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 45.72 160.02 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 77951cfa-258f-4bf3-b810-b90013809002)
-    (property "Reference" "R16" (at 45.72 154.94 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R" (at 45.72 157.48 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 45.72 161.798 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e717c87f-f437-4b77-8634-4736ea94c625))
-    (pin "2" (uuid a0323113-4d27-4e64-9083-41ed698e0a48))
-    (instances
-      (project "Arm_PCB"
-        (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R16") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -1368,7 +1298,7 @@
   (symbol (lib_id "Device:R") (at 45.72 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8124b443-f989-40bf-9c59-3830b2971635)
-    (property "Reference" "R3" (at 45.72 50.8 90)
+    (property "Reference" "R31" (at 45.72 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 53.34 90)
@@ -1385,7 +1315,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R3") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -1394,7 +1324,7 @@
   (symbol (lib_id "Device:R") (at 115.57 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 830ae46e-3bd3-41d1-ad4a-3ea1a75b6b0b)
-    (property "Reference" "R7" (at 115.57 30.48 90)
+    (property "Reference" "R43" (at 115.57 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 115.57 33.02 90)
@@ -1411,7 +1341,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R7") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -1420,7 +1350,7 @@
   (symbol (lib_id "power:+24V") (at 106.68 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a6144a5-1b7e-414e-9c7a-c1a14ba822ed)
-    (property "Reference" "#PWR011" (at 106.68 57.15 0)
+    (property "Reference" "#PWR074" (at 106.68 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 106.68 49.53 0)
@@ -1436,7 +1366,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -1445,7 +1375,7 @@
   (symbol (lib_id "Device:R") (at 45.72 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cefe8b4-ea49-42ce-b9a2-aee6f01e8e77)
-    (property "Reference" "R1" (at 45.72 33.02 90)
+    (property "Reference" "R29" (at 45.72 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 35.56 90)
@@ -1462,7 +1392,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R1") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1471,7 +1401,7 @@
   (symbol (lib_id "Device:R") (at 115.57 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 980c54e5-4b5d-43aa-b5f7-5c569cc706ad)
-    (property "Reference" "R8" (at 115.57 40.64 90)
+    (property "Reference" "R44" (at 115.57 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 115.57 43.18 90)
@@ -1488,7 +1418,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R8") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -1523,7 +1453,7 @@
   (symbol (lib_id "power:+5V") (at 106.68 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99f449ef-5d67-4e61-8274-87aea8f0e73b)
-    (property "Reference" "#PWR09" (at 106.68 48.26 0)
+    (property "Reference" "#PWR073" (at 106.68 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 106.68 40.64 0)
@@ -1539,7 +1469,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -1548,7 +1478,7 @@
   (symbol (lib_id "Device:LED") (at 54.61 115.57 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fdfcea8-ef37-4361-94b6-7954c99c8fa5)
-    (property "Reference" "D12" (at 54.61 110.49 0)
+    (property "Reference" "D9" (at 54.61 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 54.61 113.03 0)
@@ -1565,33 +1495,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 45.72 168.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a404286a-2546-497b-a735-12d19e4657ab)
-    (property "Reference" "R17" (at 45.72 163.83 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R" (at 45.72 166.37 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 45.72 170.688 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0b7b767d-5e18-443b-aac2-89adf15d448c))
-    (pin "2" (uuid 29a7e28f-90d1-464f-9c6f-b3d53fea1658))
-    (instances
-      (project "Arm_PCB"
-        (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R17") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1600,7 +1504,7 @@
   (symbol (lib_id "Device:R") (at 45.72 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4451e43-9121-49eb-8453-e5e3fd2600c2)
-    (property "Reference" "R6" (at 45.72 77.47 90)
+    (property "Reference" "R34" (at 45.72 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 80.01 90)
@@ -1617,7 +1521,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R6") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -1626,7 +1530,7 @@
   (symbol (lib_id "Device:R") (at 45.72 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b946f4db-d06a-461a-817d-38905692cce4)
-    (property "Reference" "R4" (at 45.72 59.69 90)
+    (property "Reference" "R32" (at 45.72 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 45.72 62.23 90)
@@ -1643,7 +1547,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "R4") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -1652,7 +1556,7 @@
   (symbol (lib_id "Device:LED") (at 54.61 133.35 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd781ee2-7c7c-4421-b90e-40634386dfe3)
-    (property "Reference" "D14" (at 54.61 128.27 0)
+    (property "Reference" "D11" (at 54.61 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 54.61 130.81 0)
@@ -1669,7 +1573,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D14") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1678,7 +1582,7 @@
   (symbol (lib_id "Device:LED") (at 54.61 124.46 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c915dbd9-b33a-44fa-b02e-7dddbdb181ee)
-    (property "Reference" "D13" (at 54.61 119.38 0)
+    (property "Reference" "D10" (at 54.61 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 54.61 121.92 0)
@@ -1695,7 +1599,32 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D13") (unit 1)
+          (reference "D10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 172.72 48.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cb1a60b0-ddda-4d20-81a5-5227a807b3d6)
+    (property "Reference" "#PWR076" (at 172.72 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 172.72 53.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 172.72 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 172.72 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 542e32dc-9e47-4bf6-b6d7-3c7fe3044893))
+    (instances
+      (project "Arm_PCB"
+        (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -1704,7 +1633,7 @@
   (symbol (lib_id "power:+3.3V") (at 106.68 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbee429d-26cd-439a-aa98-ce3ce2e22e2f)
-    (property "Reference" "#PWR010" (at 106.68 36.83 0)
+    (property "Reference" "#PWR072" (at 106.68 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 106.68 29.21 0)
@@ -1720,7 +1649,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -1729,7 +1658,7 @@
   (symbol (lib_id "Device:LED") (at 124.46 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd2936bb-a154-4321-a9b7-4ff4762a495b)
-    (property "Reference" "D10" (at 124.46 50.8 0)
+    (property "Reference" "D18" (at 124.46 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 124.46 53.34 0)
@@ -1746,7 +1675,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D10") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -1755,7 +1684,7 @@
   (symbol (lib_id "Device:LED") (at 54.61 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e53304d6-d252-478b-ac0f-7b481bc5d069)
-    (property "Reference" "D11" (at 54.61 101.6 0)
+    (property "Reference" "D8" (at 54.61 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 54.61 104.14 0)
@@ -1772,7 +1701,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D11") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1830,36 +1759,10 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 54.61 151.13 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fdd4c536-a250-4b29-8fab-a93e6682c40e)
-    (property "Reference" "D16" (at 54.61 146.05 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LED" (at 54.61 148.59 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 54.61 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 54.61 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d30d727a-8e6f-4e61-8f14-9216b8536872))
-    (pin "2" (uuid 42cc2d4f-0c22-4445-9a26-237ad69ace4d))
-    (instances
-      (project "Arm_PCB"
-        (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D16") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED") (at 124.46 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff5f5d34-fcbe-44e6-bcc3-5cfa036afc6c)
-    (property "Reference" "D8" (at 124.46 30.48 0)
+    (property "Reference" "D16" (at 124.46 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 124.46 33.02 0)
@@ -1876,7 +1779,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/a2334ba5-1850-46f4-bffc-d5605cf0d4a8"
-          (reference "D8") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )

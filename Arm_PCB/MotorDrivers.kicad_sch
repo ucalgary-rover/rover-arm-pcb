@@ -2638,7 +2638,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 109.22 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0076795d-7efe-4bb9-ad2f-c9859e27ac19)
-    (property "Reference" "U8" (at 110.49 170.18 0)
+    (property "Reference" "U6" (at 110.49 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 110.49 172.72 0)
@@ -2661,7 +2661,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U8") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2670,7 +2670,7 @@
   (symbol (lib_id "Device:C") (at 91.44 74.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0213001d-a6bc-4f8e-be93-c8b2e1727fa1)
-    (property "Reference" "C?" (at 91.44 68.58 90)
+    (property "Reference" "C4" (at 91.44 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 91.44 71.12 90)
@@ -2687,7 +2687,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2696,7 +2696,7 @@
   (symbol (lib_id "SSRT_Arm_Library:TB6560_Board") (at 179.07 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 039d799f-ac65-452f-a65d-6758bf85970b)
-    (property "Reference" "U4" (at 178.435 34.29 0)
+    (property "Reference" "U12" (at 178.435 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TB6560_Board" (at 178.435 36.83 0)
@@ -2723,7 +2723,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U4") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -2732,7 +2732,7 @@
   (symbol (lib_id "Device:R") (at 190.5 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04380944-c899-4045-96ca-14e20d18137b)
-    (property "Reference" "R?" (at 190.5 93.98 90)
+    (property "Reference" "R21" (at 190.5 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 190.5 96.52 90)
@@ -2749,7 +2749,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -2758,7 +2758,7 @@
   (symbol (lib_id "Device:C") (at 217.17 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 059f67d7-773c-45bf-b1eb-66790d7d7c55)
-    (property "Reference" "C?" (at 217.17 78.74 90)
+    (property "Reference" "C9" (at 217.17 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 217.17 81.28 90)
@@ -2775,7 +2775,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2784,7 +2784,7 @@
   (symbol (lib_id "SSRT_Arm_Library:TB6560_Board") (at 73.66 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a1d483c-d086-43aa-a28a-4bc19a749863)
-    (property "Reference" "U1" (at 73.025 15.24 0)
+    (property "Reference" "U5" (at 73.025 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TB6560_Board" (at 73.025 17.78 0)
@@ -2811,7 +2811,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U1") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2820,7 +2820,7 @@
   (symbol (lib_id "power:+5V") (at 223.52 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b8ba725-4583-4b82-b446-4be965a984bd)
-    (property "Reference" "#PWR?" (at 223.52 86.36 0)
+    (property "Reference" "#PWR066" (at 223.52 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 223.52 78.74 0)
@@ -2836,7 +2836,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -2845,7 +2845,7 @@
   (symbol (lib_id "power:GND") (at 179.07 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d992d80-3c34-4d23-bef1-a442dbc53050)
-    (property "Reference" "#PWR?" (at 179.07 151.13 0)
+    (property "Reference" "#PWR061" (at 179.07 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 149.86 0)
@@ -2861,7 +2861,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -2870,7 +2870,7 @@
   (symbol (lib_id "Device:R") (at 54.61 193.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11df96b4-797e-487c-b1e6-336cd36e4c8e)
-    (property "Reference" "R20" (at 54.61 195.58 90)
+    (property "Reference" "R5" (at 54.61 195.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 54.61 190.5 90)
@@ -2887,7 +2887,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R20") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2896,7 +2896,7 @@
   (symbol (lib_id "power:GND") (at 171.45 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14cd5ba4-b5de-47aa-9b8b-80e0af28a365)
-    (property "Reference" "#PWR?" (at 171.45 110.49 0)
+    (property "Reference" "#PWR060" (at 171.45 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 107.95 0)
@@ -2912,7 +2912,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -2921,7 +2921,7 @@
   (symbol (lib_id "Device:R") (at 71.12 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 166259ff-bf44-4746-bc95-0c59bebae5e6)
-    (property "Reference" "R?" (at 71.12 134.62 90)
+    (property "Reference" "R6" (at 71.12 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 71.12 137.16 90)
@@ -2938,7 +2938,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2947,7 +2947,7 @@
   (symbol (lib_name "GNDPWR_1") (lib_id "power:GNDPWR") (at 66.04 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1872c9ec-700d-406d-a2f3-01c6de1d82d0)
-    (property "Reference" "#PWR018" (at 66.04 191.77 0)
+    (property "Reference" "#PWR034" (at 66.04 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 66.04 190.5 0)
@@ -2963,7 +2963,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -2972,7 +2972,7 @@
   (symbol (lib_id "power:GND") (at 38.1 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ccc6067-2e3d-45b4-b30b-b231a10ec456)
-    (property "Reference" "#PWR021" (at 38.1 199.39 0)
+    (property "Reference" "#PWR029" (at 38.1 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 196.85 0)
@@ -2988,7 +2988,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -2997,7 +2997,7 @@
   (symbol (lib_id "Device:R") (at 195.58 143.51 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 206bbbfd-83e9-4364-bf8c-9fd280993f1c)
-    (property "Reference" "R?" (at 195.58 146.05 90)
+    (property "Reference" "R24" (at 195.58 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 195.58 140.97 90)
@@ -3014,7 +3014,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3023,7 +3023,7 @@
   (symbol (lib_id "SSRT_Arm_Library:TB6560_Board") (at 215.9 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20afba7a-473c-4e14-bbde-d658f9baf78d)
-    (property "Reference" "U5" (at 215.265 34.29 0)
+    (property "Reference" "U14" (at 215.265 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TB6560_Board" (at 215.265 36.83 0)
@@ -3050,7 +3050,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U5") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -3059,7 +3059,7 @@
   (symbol (lib_id "power:GND") (at 210.82 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 272d724a-c83c-4a6b-84a9-f84a92503495)
-    (property "Reference" "#PWR?" (at 210.82 91.44 0)
+    (property "Reference" "#PWR065" (at 210.82 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 88.9 0)
@@ -3075,7 +3075,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -3084,7 +3084,7 @@
   (symbol (lib_id "power:+5V") (at 106.68 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2944217e-0a47-44e0-9cf1-048f2f35bfdb)
-    (property "Reference" "#PWR?" (at 106.68 119.38 0)
+    (property "Reference" "#PWR045" (at 106.68 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 106.68 110.49 0)
@@ -3100,7 +3100,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -3109,7 +3109,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise") (at 147.32 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29637046-3ed3-4a40-b36c-ff20ea6745ab)
-    (property "Reference" "J13" (at 148.59 186.69 0)
+    (property "Reference" "J20" (at 148.59 186.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x03_Counter_Clockwise" (at 148.59 186.69 0)
@@ -3130,7 +3130,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "J13") (unit 1)
+          (reference "J20") (unit 1)
         )
       )
     )
@@ -3139,7 +3139,7 @@
   (symbol (lib_id "power:GNDPWR") (at 16.51 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bbd9638-9ff2-4e5d-a038-740a58f9bfb0)
-    (property "Reference" "#PWR?" (at 16.51 26.67 0)
+    (property "Reference" "#PWR019" (at 16.51 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 16.51 25.4 0)
@@ -3155,7 +3155,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3164,7 +3164,7 @@
   (symbol (lib_id "power:GNDPWR") (at 53.34 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c5cd696-9302-47a0-bb8d-727704e9eaa7)
-    (property "Reference" "#PWR?" (at 53.34 26.67 0)
+    (property "Reference" "#PWR033" (at 53.34 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 53.34 25.4 0)
@@ -3180,7 +3180,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3189,7 +3189,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 110.49 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2faf205b-c8ef-4cea-88b5-6835680581ed)
-    (property "Reference" "U1" (at 113.03 73.66 0)
+    (property "Reference" "U8" (at 113.03 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 113.03 76.2 0)
@@ -3212,7 +3212,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U1") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -3221,7 +3221,7 @@
   (symbol (lib_id "Device:R") (at 154.94 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32972f9f-d2a7-4062-ab6f-9754ce340a90)
-    (property "Reference" "R?" (at 154.94 91.44 90)
+    (property "Reference" "R19" (at 154.94 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 154.94 93.98 90)
@@ -3238,7 +3238,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -3247,7 +3247,7 @@
   (symbol (lib_id "power:GND") (at 92.71 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 371a7523-cbb7-4f45-9de2-b1411e455965)
-    (property "Reference" "#PWR?" (at 92.71 125.73 0)
+    (property "Reference" "#PWR041" (at 92.71 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 123.19 0)
@@ -3263,7 +3263,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3272,7 +3272,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 45.72 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39a973ea-7433-4450-a09f-d85df132777e)
-    (property "Reference" "U4" (at 47.7394 111.76 0)
+    (property "Reference" "U3" (at 47.7394 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 47.7394 114.3 0)
@@ -3295,7 +3295,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3304,7 +3304,7 @@
   (symbol (lib_id "power:+5V") (at 33.02 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cd96b60-5fad-4018-9cb3-2cb92cf5fcb7)
-    (property "Reference" "#PWR020" (at 33.02 171.45 0)
+    (property "Reference" "#PWR026" (at 33.02 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 33.02 163.83 0)
@@ -3320,7 +3320,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3329,7 +3329,7 @@
   (symbol (lib_id "power:GND") (at 232.41 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 428b4d35-7c3c-4802-b360-718f04c9f701)
-    (property "Reference" "#PWR?" (at 232.41 71.12 0)
+    (property "Reference" "#PWR067" (at 232.41 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 232.41 68.58 0)
@@ -3345,7 +3345,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -3354,7 +3354,7 @@
   (symbol (lib_id "SSRT_Arm_Library:TB6560_Board") (at 110.49 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44171bc7-c6c4-4378-859d-1bd4f76590a6)
-    (property "Reference" "U2" (at 109.855 15.24 0)
+    (property "Reference" "U7" (at 109.855 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TB6560_Board" (at 109.855 17.78 0)
@@ -3381,7 +3381,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U2") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -3390,7 +3390,7 @@
   (symbol (lib_id "SSRT_Arm_Library:TB6560_Board") (at 147.32 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45bd159f-9525-4af2-8282-9a17e446c07a)
-    (property "Reference" "U3" (at 146.685 15.24 0)
+    (property "Reference" "U10" (at 146.685 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TB6560_Board" (at 146.685 17.78 0)
@@ -3417,7 +3417,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U3") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -3426,7 +3426,7 @@
   (symbol (lib_id "Device:R") (at 54.61 185.42 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47589d45-30ca-4390-ac44-86888e1c2d58)
-    (property "Reference" "R19" (at 54.61 187.96 90)
+    (property "Reference" "R4" (at 54.61 187.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 54.61 182.88 90)
@@ -3443,7 +3443,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R19") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3452,7 +3452,7 @@
   (symbol (lib_id "Device:R") (at 71.12 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bb9ea6c-5b00-4e00-a4b6-d481559c4240)
-    (property "Reference" "R?" (at 71.12 142.24 90)
+    (property "Reference" "R7" (at 71.12 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 71.12 129.54 90)
@@ -3469,7 +3469,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3478,7 +3478,7 @@
   (symbol (lib_id "power:GND") (at 87.63 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4de5a223-11b2-4fc9-a14c-89b09cdcf833)
-    (property "Reference" "#PWR?" (at 87.63 81.28 0)
+    (property "Reference" "#PWR036" (at 87.63 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 78.74 0)
@@ -3494,7 +3494,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3503,7 +3503,7 @@
   (symbol (lib_id "Device:R") (at 72.39 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e3a8908-734b-49e9-8d6f-4d46b9e023de)
-    (property "Reference" "R?" (at 72.39 88.9 90)
+    (property "Reference" "R8" (at 72.39 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 72.39 91.44 90)
@@ -3520,7 +3520,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3529,7 +3529,7 @@
   (symbol (lib_id "power:GNDPWR") (at 236.22 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e6cca62-d065-4859-a0ff-311690f76491)
-    (property "Reference" "#PWR?" (at 236.22 45.72 0)
+    (property "Reference" "#PWR069" (at 236.22 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 236.22 44.45 0)
@@ -3545,7 +3545,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -3554,7 +3554,7 @@
   (symbol (lib_id "Device:R") (at 195.58 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51c0a87e-ab34-4ff6-babe-5cb85df3be7c)
-    (property "Reference" "R?" (at 195.58 138.43 90)
+    (property "Reference" "R23" (at 195.58 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 195.58 133.35 90)
@@ -3571,7 +3571,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3580,7 +3580,7 @@
   (symbol (lib_id "power:GND") (at 45.72 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a14f283-dfd2-45b9-9dfe-6bbf0e6fb9ab)
-    (property "Reference" "#PWR?" (at 45.72 152.4 0)
+    (property "Reference" "#PWR030" (at 45.72 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 45.72 151.13 0)
@@ -3596,7 +3596,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3605,7 +3605,7 @@
   (symbol (lib_id "Device:C") (at 99.06 171.45 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5abf4009-47c9-4eb8-8d3a-fda842ff82ba)
-    (property "Reference" "C2" (at 99.06 165.1 90)
+    (property "Reference" "C6" (at 99.06 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 99.06 167.64 90)
@@ -3622,7 +3622,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C2") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3631,7 +3631,7 @@
   (symbol (lib_id "Device:C") (at 96.52 119.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c874545-197d-4f2b-81c1-603bfceda39f)
-    (property "Reference" "C?" (at 96.52 111.76 90)
+    (property "Reference" "C5" (at 96.52 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 96.52 114.3 90)
@@ -3648,7 +3648,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3657,7 +3657,7 @@
   (symbol (lib_id "power:GND") (at 115.57 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d24a7b3-405f-4e1a-9bf8-704d3bfeb2c8)
-    (property "Reference" "#PWR?" (at 115.57 151.13 0)
+    (property "Reference" "#PWR048" (at 115.57 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 149.86 0)
@@ -3673,7 +3673,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -3682,7 +3682,7 @@
   (symbol (lib_id "power:GND") (at 152.4 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5da234ef-e0e3-4abe-a437-e8e5a205ace8)
-    (property "Reference" "#PWR?" (at 152.4 85.09 0)
+    (property "Reference" "#PWR053" (at 152.4 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 82.55 0)
@@ -3698,7 +3698,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -3707,7 +3707,7 @@
   (symbol (lib_id "Device:R") (at 116.84 193.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60866c44-df2c-430b-9ad2-9c831317a7b6)
-    (property "Reference" "R23" (at 116.84 195.58 90)
+    (property "Reference" "R13" (at 116.84 195.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 116.84 190.5 90)
@@ -3724,7 +3724,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R23") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3733,7 +3733,7 @@
   (symbol (lib_id "power:GND") (at 22.86 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6160d451-a41c-4927-aeec-45dc97e97b19)
-    (property "Reference" "#PWR?" (at 22.86 125.73 0)
+    (property "Reference" "#PWR023" (at 22.86 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 123.19 0)
@@ -3749,7 +3749,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3758,7 +3758,7 @@
   (symbol (lib_id "power:GND") (at 160.02 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6160d628-275c-401a-91cd-fe4bfcc4e4c5)
-    (property "Reference" "#PWR?" (at 160.02 129.54 0)
+    (property "Reference" "#PWR056" (at 160.02 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 127 0)
@@ -3774,7 +3774,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -3783,7 +3783,7 @@
   (symbol (lib_id "power:GND") (at 46.99 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64aa1125-6327-4d09-972d-ed44a3f152e9)
-    (property "Reference" "#PWR?" (at 46.99 105.41 0)
+    (property "Reference" "#PWR031" (at 46.99 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 104.14 0)
@@ -3799,7 +3799,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -3808,7 +3808,7 @@
   (symbol (lib_id "power:GND") (at 52.07 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65aa40db-7c59-4da7-a62e-e6995c67fc7e)
-    (property "Reference" "#PWR?" (at 52.07 54.61 0)
+    (property "Reference" "#PWR032" (at 52.07 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 53.34 0)
@@ -3824,7 +3824,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3833,7 +3833,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 46.99 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65d04fda-0a4a-4d36-a3fe-41a00317285a)
-    (property "Reference" "U0" (at 48.26 72.39 0)
+    (property "Reference" "U4" (at 48.26 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 48.26 74.93 0)
@@ -3856,7 +3856,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U0") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -3865,7 +3865,7 @@
   (symbol (lib_id "Device:R") (at 97.79 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6603e4ac-bcd9-4297-b1fc-04194f86226e)
-    (property "Reference" "R?" (at 97.79 132.08 90)
+    (property "Reference" "R12" (at 97.79 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 97.79 134.62 90)
@@ -3882,7 +3882,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3891,7 +3891,7 @@
   (symbol (lib_id "Device:R") (at 26.67 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6666e993-dc38-4800-a707-4ee4f32568cc)
-    (property "Reference" "R?" (at 26.67 132.08 90)
+    (property "Reference" "R2" (at 26.67 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 26.67 134.62 90)
@@ -3908,7 +3908,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3917,7 +3917,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 171.45 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68af8792-e020-4bea-bc0c-c6cd9454c5dd)
-    (property "Reference" "U2" (at 172.72 77.47 0)
+    (property "Reference" "U11" (at 172.72 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 172.72 80.01 0)
@@ -3940,7 +3940,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U2") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -3949,7 +3949,7 @@
   (symbol (lib_id "Device:R") (at 20.32 189.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b6e941b-9fea-4b79-bb9d-8bea657bf525)
-    (property "Reference" "R18" (at 20.32 184.15 90)
+    (property "Reference" "R1" (at 20.32 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 20.32 186.69 90)
@@ -3966,7 +3966,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R18") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3975,7 +3975,7 @@
   (symbol (lib_id "power:+24V") (at 154.94 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7717d14f-d52c-4d04-ab24-95e0153639b3)
-    (property "Reference" "#PWR?" (at 154.94 132.08 0)
+    (property "Reference" "#PWR054" (at 154.94 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 154.94 124.46 0)
@@ -3991,7 +3991,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -4000,7 +4000,7 @@
   (symbol (lib_id "power:GND") (at 93.98 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78135339-6944-4676-896e-2f59cb9a2479)
-    (property "Reference" "#PWR024" (at 93.98 179.07 0)
+    (property "Reference" "#PWR042" (at 93.98 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 176.53 0)
@@ -4016,7 +4016,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4025,7 +4025,7 @@
   (symbol (lib_id "power:GNDPWR") (at 198.12 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 793ced32-d1af-449b-b8d6-d5ed99cba003)
-    (property "Reference" "#PWR?" (at 198.12 45.72 0)
+    (property "Reference" "#PWR063" (at 198.12 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 198.12 44.45 0)
@@ -4041,7 +4041,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -4050,7 +4050,7 @@
   (symbol (lib_id "SSRT_Arm_Library:TB6560_Board") (at 35.56 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79ffb93d-0008-49a8-b538-5d1901edcb9a)
-    (property "Reference" "U0" (at 34.925 15.24 0)
+    (property "Reference" "U1" (at 34.925 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TB6560_Board" (at 34.925 17.78 0)
@@ -4077,7 +4077,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U0") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -4086,7 +4086,7 @@
   (symbol (lib_id "power:+24V") (at 82.55 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b0c14c4-f00c-4966-8a16-94c0577e8e79)
-    (property "Reference" "#PWR?" (at 82.55 86.36 0)
+    (property "Reference" "#PWR035" (at 82.55 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 82.55 78.74 0)
@@ -4102,7 +4102,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -4111,7 +4111,7 @@
   (symbol (lib_id "power:+24V") (at 87.63 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d5aada9-35ff-4e8c-b6f0-ecb56723b876)
-    (property "Reference" "#PWR?" (at 87.63 130.81 0)
+    (property "Reference" "#PWR037" (at 87.63 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 87.63 123.19 0)
@@ -4127,7 +4127,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4136,7 +4136,7 @@
   (symbol (lib_id "power:GND") (at 110.49 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f14d302-b064-4eee-b294-0c9fbd78474a)
-    (property "Reference" "#PWR?" (at 110.49 107.95 0)
+    (property "Reference" "#PWR047" (at 110.49 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.49 105.41 0)
@@ -4152,7 +4152,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -4161,7 +4161,7 @@
   (symbol (lib_id "power:GND") (at 22.86 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ffad2d8-7eab-429e-9212-9fb5b9e58370)
-    (property "Reference" "#PWR019" (at 22.86 179.07 0)
+    (property "Reference" "#PWR024" (at 22.86 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 176.53 0)
@@ -4177,7 +4177,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4186,7 +4186,7 @@
   (symbol (lib_id "power:+5V") (at 162.56 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81dd9b79-09d6-44b3-bdc3-dd560a51cb18)
-    (property "Reference" "#PWR?" (at 162.56 81.28 0)
+    (property "Reference" "#PWR058" (at 162.56 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 162.56 73.66 0)
@@ -4202,7 +4202,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -4211,7 +4211,7 @@
   (symbol (lib_id "power:+5V") (at 87.63 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82b8ef0f-dd96-468d-842a-5583da24256c)
-    (property "Reference" "#PWR023" (at 87.63 181.61 0)
+    (property "Reference" "#PWR038" (at 87.63 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 87.63 173.99 0)
@@ -4227,7 +4227,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4236,7 +4236,7 @@
   (symbol (lib_id "Device:R") (at 129.54 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 862980e6-ad1e-457f-80af-2bdf77dcb302)
-    (property "Reference" "R?" (at 129.54 90.17 90)
+    (property "Reference" "R16" (at 129.54 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 129.54 85.09 90)
@@ -4253,7 +4253,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4262,7 +4262,7 @@
   (symbol (lib_id "power:GND") (at 109.22 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8736c378-bc5c-4953-8d25-f3f5702ef7f8)
-    (property "Reference" "#PWR026" (at 109.22 200.66 0)
+    (property "Reference" "#PWR046" (at 109.22 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 198.12 0)
@@ -4278,7 +4278,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -4287,7 +4287,7 @@
   (symbol (lib_id "power:+24V") (at 204.47 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87c5f9e8-534c-494e-b83d-1b567a4a214f)
-    (property "Reference" "#PWR?" (at 204.47 96.52 0)
+    (property "Reference" "#PWR064" (at 204.47 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 204.47 88.9 0)
@@ -4303,7 +4303,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -4312,7 +4312,7 @@
   (symbol (lib_id "power:GNDPWR") (at 92.71 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8db53609-1f24-471e-91fc-f5a975ade5cb)
-    (property "Reference" "#PWR?" (at 92.71 26.67 0)
+    (property "Reference" "#PWR040" (at 92.71 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 92.71 25.4 0)
@@ -4328,7 +4328,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4337,7 +4337,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise") (at 76.2 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e295004-17e3-4793-8471-160a9edbb64f)
-    (property "Reference" "J12" (at 77.47 186.69 0)
+    (property "Reference" "J19" (at 77.47 186.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x03_Counter_Clockwise" (at 77.47 186.69 0)
@@ -4358,7 +4358,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "J12") (unit 1)
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -4367,7 +4367,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 179.07 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f5f5bf6-1655-4810-85b3-2de2d88c3919)
-    (property "Reference" "U6" (at 180.34 120.65 0)
+    (property "Reference" "U13" (at 180.34 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 180.34 123.19 0)
@@ -4390,7 +4390,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U6") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -4399,7 +4399,7 @@
   (symbol (lib_id "Device:R") (at 250.19 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fcb91b8-d80e-40be-ad3d-c831b358bd2c)
-    (property "Reference" "R?" (at 250.19 100.33 90)
+    (property "Reference" "R26" (at 250.19 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 250.19 102.87 90)
@@ -4416,7 +4416,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -4425,7 +4425,7 @@
   (symbol (lib_id "Device:C") (at 27.94 171.45 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91061cea-7495-4590-afa2-7ecdea7f33ac)
-    (property "Reference" "C1" (at 27.94 165.1 90)
+    (property "Reference" "C3" (at 27.94 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 27.94 167.64 90)
@@ -4442,7 +4442,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4451,7 +4451,7 @@
   (symbol (lib_id "power:GND") (at 88.9 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9145bfa7-d054-4e51-b5cb-a5b335c852b7)
-    (property "Reference" "#PWR?" (at 88.9 54.61 0)
+    (property "Reference" "#PWR039" (at 88.9 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 53.34 0)
@@ -4467,7 +4467,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4476,7 +4476,7 @@
   (symbol (lib_id "Device:R") (at 214.63 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 943dffde-61ee-43cd-aa1f-9d803e6fd51e)
-    (property "Reference" "R?" (at 214.63 97.79 90)
+    (property "Reference" "R25" (at 214.63 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 214.63 100.33 90)
@@ -4493,7 +4493,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -4502,7 +4502,7 @@
   (symbol (lib_id "power:+24V") (at 19.05 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 961fd6b2-6010-45d8-8720-39ae0dc1f3e1)
-    (property "Reference" "#PWR?" (at 19.05 85.09 0)
+    (property "Reference" "#PWR022" (at 19.05 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 19.05 77.47 0)
@@ -4518,7 +4518,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4527,7 +4527,7 @@
   (symbol (lib_id "power:+24V") (at 17.78 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9857eb43-663e-4bcc-9386-c6443eb3e07c)
-    (property "Reference" "#PWR?" (at 17.78 130.81 0)
+    (property "Reference" "#PWR021" (at 17.78 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 17.78 123.19 0)
@@ -4543,7 +4543,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4552,7 +4552,7 @@
   (symbol (lib_id "power:GND") (at 125.73 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98df17c7-ec7a-4666-b2ab-3e1b6e640b43)
-    (property "Reference" "#PWR?" (at 125.73 54.61 0)
+    (property "Reference" "#PWR049" (at 125.73 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 53.34 0)
@@ -4568,7 +4568,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -4577,7 +4577,7 @@
   (symbol (lib_id "power:+24V") (at 143.51 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c93d198-a0fd-46f3-b22b-6ba8256f6894)
-    (property "Reference" "#PWR?" (at 143.51 90.17 0)
+    (property "Reference" "#PWR052" (at 143.51 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 143.51 82.55 0)
@@ -4593,7 +4593,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -4602,7 +4602,7 @@
   (symbol (lib_id "Device:R") (at 72.39 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ff4ede5-6867-474f-95a7-a6aaf58b9f66)
-    (property "Reference" "R?" (at 72.39 96.52 90)
+    (property "Reference" "R9" (at 72.39 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 72.39 83.82 90)
@@ -4619,7 +4619,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4628,7 +4628,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 38.1 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a05f63f4-7b30-4295-9296-ed48bfcf9b26)
-    (property "Reference" "U7" (at 39.37 170.18 0)
+    (property "Reference" "U2" (at 39.37 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 39.37 172.72 0)
@@ -4651,7 +4651,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U7") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -4660,7 +4660,7 @@
   (symbol (lib_id "power:+5V") (at 38.1 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1244e07-1252-4053-b37d-f4300d24cbed)
-    (property "Reference" "#PWR?" (at 38.1 73.66 0)
+    (property "Reference" "#PWR028" (at 38.1 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 38.1 64.77 0)
@@ -4676,7 +4676,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4685,7 +4685,7 @@
   (symbol (lib_id "power:+5V") (at 101.6 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2d1264e-d186-488c-9503-b3dc0a8ab9da)
-    (property "Reference" "#PWR?" (at 101.6 74.93 0)
+    (property "Reference" "#PWR043" (at 101.6 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 101.6 67.31 0)
@@ -4701,7 +4701,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -4710,7 +4710,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 115.57 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a40b8fa0-c2f3-4162-8f57-7c4b11fabd7b)
-    (property "Reference" "U5" (at 117.5894 111.76 0)
+    (property "Reference" "U9" (at 117.5894 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 117.5894 114.3 0)
@@ -4733,7 +4733,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U5") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -4742,7 +4742,7 @@
   (symbol (lib_id "Device:R") (at 91.44 189.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9c474fb-4f85-41c9-91e8-25d0f6e7c5f1)
-    (property "Reference" "R21" (at 91.44 184.15 90)
+    (property "Reference" "R10" (at 91.44 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 91.44 186.69 90)
@@ -4759,7 +4759,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R21") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4768,7 +4768,7 @@
   (symbol (lib_id "Device:R") (at 190.5 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aefb4296-50b2-40cd-8678-cc01f11a88be)
-    (property "Reference" "R?" (at 190.5 101.6 90)
+    (property "Reference" "R22" (at 190.5 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 190.5 88.9 90)
@@ -4785,7 +4785,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4794,7 +4794,7 @@
   (symbol (lib_id "Device:R") (at 125.73 184.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5190718-fd8e-4694-a08e-4b0c94258847)
-    (property "Reference" "R22" (at 125.73 186.69 90)
+    (property "Reference" "R14" (at 125.73 186.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 125.73 181.61 90)
@@ -4811,7 +4811,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R22") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -4820,7 +4820,7 @@
   (symbol (lib_id "Device:R") (at 250.19 105.41 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8091e34-9101-4314-befd-edbb82b7dd02)
-    (property "Reference" "R?" (at 250.19 107.95 90)
+    (property "Reference" "R27" (at 250.19 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 250.19 95.25 90)
@@ -4837,7 +4837,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -4846,7 +4846,7 @@
   (symbol (lib_id "Device:C") (at 165.1 121.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb02f49d-ea89-467b-92b5-0ce14903ccc5)
-    (property "Reference" "C?" (at 165.1 115.57 90)
+    (property "Reference" "C8" (at 165.1 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 165.1 118.11 90)
@@ -4863,7 +4863,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C?") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4872,7 +4872,7 @@
   (symbol (lib_id "Device:R") (at 127 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c084fe5c-b203-4b65-a45d-f276b50118de)
-    (property "Reference" "R?" (at 127 97.79 90)
+    (property "Reference" "R15" (at 127 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 127 92.71 90)
@@ -4889,7 +4889,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4898,7 +4898,7 @@
   (symbol (lib_id "power:+5V") (at 170.18 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb3fa644-1689-4eb8-b55e-921f2fcccf13)
-    (property "Reference" "#PWR?" (at 170.18 121.92 0)
+    (property "Reference" "#PWR059" (at 170.18 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 170.18 113.03 0)
@@ -4914,7 +4914,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -4923,7 +4923,7 @@
   (symbol (lib_id "power:+5V") (at 16.51 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc481752-005d-4f6e-af64-0a7c4c76f97a)
-    (property "Reference" "#PWR022" (at 16.51 181.61 0)
+    (property "Reference" "#PWR020" (at 16.51 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 16.51 173.99 0)
@@ -4939,7 +4939,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4948,7 +4948,7 @@
   (symbol (lib_id "power:GND") (at 13.97 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cda8c9c9-146d-4a94-b85c-62d183444833)
-    (property "Reference" "#PWR?" (at 13.97 54.61 0)
+    (property "Reference" "#PWR018" (at 13.97 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 13.97 53.34 0)
@@ -4964,7 +4964,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4973,7 +4973,7 @@
   (symbol (lib_id "Device:C") (at 26.67 119.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0832c73-7403-4fcc-8313-7944e5474252)
-    (property "Reference" "C?" (at 26.67 111.76 90)
+    (property "Reference" "C1" (at 26.67 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 26.67 114.3 90)
@@ -4990,7 +4990,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -4999,7 +4999,7 @@
   (symbol (lib_id "power:GND") (at 232.41 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0e0b695-13ae-4dc8-acfa-e2831bee8c03)
-    (property "Reference" "#PWR?" (at 232.41 116.84 0)
+    (property "Reference" "#PWR068" (at 232.41 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 232.41 115.57 0)
@@ -5015,7 +5015,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -5024,7 +5024,7 @@
   (symbol (lib_id "Device:R") (at 31.75 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d23a2f4c-aad5-45e4-ae8e-d271f0513cbf)
-    (property "Reference" "R?" (at 31.75 85.09 90)
+    (property "Reference" "R3" (at 31.75 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 31.75 87.63 90)
@@ -5041,7 +5041,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -5050,7 +5050,7 @@
   (symbol (lib_id "power:GND") (at 157.48 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3d22b1f-f14f-4a99-ba49-9311ddd9d197)
-    (property "Reference" "#PWR?" (at 157.48 71.12 0)
+    (property "Reference" "#PWR055" (at 157.48 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 68.58 0)
@@ -5066,7 +5066,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -5075,7 +5075,7 @@
   (symbol (lib_id "power:+5V") (at 36.83 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3f8836c-2a27-4d76-adba-ac95efd9114d)
-    (property "Reference" "#PWR?" (at 36.83 119.38 0)
+    (property "Reference" "#PWR027" (at 36.83 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 36.83 110.49 0)
@@ -5091,7 +5091,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -5100,7 +5100,7 @@
   (symbol (lib_id "power:GNDPWR") (at 129.54 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d52b358e-e660-4fbf-8bc4-04851f72261a)
-    (property "Reference" "#PWR?" (at 129.54 26.67 0)
+    (property "Reference" "#PWR050" (at 129.54 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 129.54 25.4 0)
@@ -5116,7 +5116,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -5125,7 +5125,7 @@
   (symbol (lib_id "power:GND") (at 194.31 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da825c78-0f9a-4fc0-a8d1-a5da87d482d5)
-    (property "Reference" "#PWR?" (at 194.31 71.12 0)
+    (property "Reference" "#PWR062" (at 194.31 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 68.58 0)
@@ -5141,7 +5141,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -5150,7 +5150,7 @@
   (symbol (lib_id "power:+5V") (at 104.14 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4eb322a-ae2b-408b-8756-3bd87ae46bf1)
-    (property "Reference" "#PWR025" (at 104.14 171.45 0)
+    (property "Reference" "#PWR044" (at 104.14 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 104.14 163.83 0)
@@ -5166,7 +5166,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -5175,7 +5175,7 @@
   (symbol (lib_id "Device:R") (at 140.97 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e779a348-4e25-4ea6-8d17-f6364c1a9505)
-    (property "Reference" "R?" (at 140.97 142.24 90)
+    (property "Reference" "R18" (at 140.97 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 140.97 129.54 90)
@@ -5192,7 +5192,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -5201,7 +5201,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxDCN") (at 232.41 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e94c4335-3d48-497c-a869-2837075a0467)
-    (property "Reference" "U3" (at 233.68 83.82 0)
+    (property "Reference" "U15" (at 233.68 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxDCN" (at 233.68 86.36 0)
@@ -5224,7 +5224,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U3") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -5233,7 +5233,7 @@
   (symbol (lib_id "Device:C") (at 157.48 78.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea47a0c4-e947-4a69-a454-f613839c76f9)
-    (property "Reference" "C?" (at 157.48 72.39 90)
+    (property "Reference" "C7" (at 157.48 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 157.48 74.93 90)
@@ -5250,7 +5250,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5259,7 +5259,7 @@
   (symbol (lib_id "Device:C") (at 27.94 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec18b66f-8ea4-4658-8c66-2d3a96dd1557)
-    (property "Reference" "C?" (at 27.94 66.04 90)
+    (property "Reference" "C2" (at 27.94 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 27.94 68.58 90)
@@ -5276,7 +5276,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -5285,7 +5285,7 @@
   (symbol (lib_id "Device:R") (at 93.98 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed5ac07d-3d26-4ade-ad52-29e9f1210608)
-    (property "Reference" "R?" (at 93.98 87.63 90)
+    (property "Reference" "R11" (at 93.98 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 93.98 90.17 90)
@@ -5302,7 +5302,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5311,7 +5311,7 @@
   (symbol (lib_id "Device:R") (at 140.97 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eeb59896-5a5a-46c5-9ea3-64233c033f41)
-    (property "Reference" "R?" (at 140.97 134.62 90)
+    (property "Reference" "R17" (at 140.97 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 140.97 137.16 90)
@@ -5328,7 +5328,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -5337,7 +5337,7 @@
   (symbol (lib_id "power:GND") (at 24.13 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef17a86b-9597-4ea1-9579-17a9f4c70dad)
-    (property "Reference" "#PWR?" (at 24.13 80.01 0)
+    (property "Reference" "#PWR025" (at 24.13 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 77.47 0)
@@ -5353,7 +5353,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5362,7 +5362,7 @@
   (symbol (lib_name "GNDPWR_1") (lib_id "power:GNDPWR") (at 137.16 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f10bf070-0b81-4455-a668-84386ecec0fc)
-    (property "Reference" "#PWR027" (at 137.16 191.77 0)
+    (property "Reference" "#PWR051" (at 137.16 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 137.16 190.5 0)
@@ -5378,7 +5378,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -5387,7 +5387,7 @@
   (symbol (lib_id "Device:R") (at 161.29 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2cc11ac-2318-4472-bb79-521a194ebc24)
-    (property "Reference" "R?" (at 161.29 134.62 90)
+    (property "Reference" "R20" (at 161.29 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 161.29 137.16 90)
@@ -5404,7 +5404,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "R?") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5413,7 +5413,7 @@
   (symbol (lib_id "SSRT_Arm_Library:TB6560_Board") (at 254 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdcbc6db-ddb0-4e68-8492-f1f6e3209a03)
-    (property "Reference" "U6" (at 253.365 34.29 0)
+    (property "Reference" "U16" (at 253.365 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TB6560_Board" (at 253.365 36.83 0)
@@ -5440,7 +5440,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "U6") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -5449,7 +5449,7 @@
   (symbol (lib_id "power:GNDPWR") (at 161.29 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe35bf44-d216-40dd-a640-4a040bf76ea1)
-    (property "Reference" "#PWR?" (at 161.29 45.72 0)
+    (property "Reference" "#PWR057" (at 161.29 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 161.29 44.45 0)
@@ -5465,7 +5465,7 @@
     (instances
       (project "Arm_PCB"
         (path "/f8b9fbb1-757f-4aa8-8e30-7f83a30c7c5f/bb228902-3eef-4db7-9bf2-e6e1028f63fe"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
