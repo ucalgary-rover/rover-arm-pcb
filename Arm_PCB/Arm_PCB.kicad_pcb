@@ -268,7 +268,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 047efde9-3420-46e1-8676-65f3ba0719bc)
-    (at 266.7 159.38)
+    (at 81.28 261.62)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -330,7 +330,7 @@
 
   (footprint "Arm_Footprints:TB6560_Breakout" (layer "F.Cu")
     (tstamp 06e72e73-b837-4e2c-ae0d-8f37fb0d7b41)
-    (at 269.24 72.62)
+    (at 259.38 60.96)
     (property "Sheetfile" "MotorDrivers.kicad_sch")
     (property "Sheetname" "MotorDrivers")
     (path "/bb228902-3eef-4db7-9bf2-e6e1028f63fe/039d799f-ac65-452f-a65d-6758bf85970b")
@@ -453,7 +453,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 0f93da16-804f-464e-9990-5b50f6d2d77d)
-    (at 101.99 128.5)
+    (at 222.555 239.35)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -507,7 +507,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp 10a53bf0-e135-421a-ba8d-70b033eb9eef)
-    (at 203.95 196.48)
+    (at 290.675 238.76)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -561,7 +561,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp 1459d467-11a3-43b1-9635-788a1867e461)
-    (at 243.63 188.08)
+    (at 299.7025 222.545)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -633,7 +633,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 15cc097c-2b02-4127-8779-a6eb94b4d0f0)
-    (at 183.3 158.075)
+    (at 162.0675 248.92)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -691,7 +691,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 17d43491-08d2-4af1-8761-fc924896a204)
-    (at 202.6 153.9)
+    (at 179.8475 228.6)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -749,7 +749,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 1959617e-a7f1-48a8-997a-a59bc39793f0)
-    (at 209.93 183.05)
+    (at 223.52 259.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -803,7 +803,7 @@
 
   (footprint "Arm_Footprints:TB6560_Breakout" (layer "F.Cu")
     (tstamp 1a46acce-1488-470b-bbd5-c18b8d6eacf3)
-    (at 320.34 72.62)
+    (at 310.48 60.96)
     (property "Sheetfile" "MotorDrivers.kicad_sch")
     (property "Sheetname" "MotorDrivers")
     (path "/bb228902-3eef-4db7-9bf2-e6e1028f63fe/20afba7a-473c-4e14-bbde-d658f9baf78d")
@@ -926,7 +926,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 1c583734-9788-4183-aca8-1bd162f24f41)
-    (at 221.83 183.05)
+    (at 270.79 264.16)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -939,7 +939,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8df1cf23-4de2-4b11-86c6-c6b4aad25d66)
     )
-    (fp_text value "10K" (at 0 1.82) (layer "F.Fab")
+    (fp_text value "10K" (at 1.98 11.98) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 54470299-7c81-4dd5-9906-adfdc5e47f4e)
     )
@@ -980,7 +980,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp 20d66149-6fa4-4697-8286-d286a42c008d)
-    (at 233.33 192.53)
+    (at 298.3175 262.595)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -1052,7 +1052,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 2129f687-245e-4a75-8d29-76ad72fefc86)
-    (at 215.88 192.92)
+    (at 253.5525 259.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -1106,7 +1106,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp 227d64d8-2683-4e57-9e8f-db5337dc2131)
-    (at 233.33 183.63)
+    (at 232.0375 261.945)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -1178,7 +1178,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp 23bd7487-9529-4824-a138-628822d6e8dd)
-    (at 243.63 192.53)
+    (at 262.7575 247.945)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -1250,7 +1250,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 23f3785f-38ca-4049-8875-8f2836d6d46d)
-    (at 171.355 164.205)
+    (at 121.92 238.6)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -1304,7 +1304,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 26856459-b03c-428e-8c3a-74f2e6dc9e87)
-    (at 140.405 201.455)
+    (at 383.54 211.66)
     (descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x04 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -1384,7 +1384,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 2937b34f-fad1-4c17-b3a5-350f45f211b5)
-    (at 215.88 186.34)
+    (at 306.35 264.16)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -1438,7 +1438,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 295c17ee-5004-401e-a0fe-1a3badc8ce97)
-    (at 133.205 201.455)
+    (at 358.14 211.66)
     (descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x04 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -1518,7 +1518,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 29ec88eb-daee-49f1-b74a-9371fcc48ceb)
-    (at 83.805 201.455)
+    (at 248.62 127)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -1582,7 +1582,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 29f2375d-f7c0-4812-9ec6-0d7aafe1ae63)
-    (at 266.7 168.43)
+    (at 60.96 215.9)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -1644,7 +1644,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 2a0b92df-de2f-4747-8caa-618fcc410c0c)
-    (at 209.93 199.5)
+    (at 269.8 238.76)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -1698,7 +1698,7 @@
 
   (footprint "Button_Switch_THT:SW_PUSH_6mm" (layer "F.Cu")
     (tstamp 2c183ea5-22a0-47b4-9a8f-fd7ee802b1e7)
-    (at 72.955 226.805)
+    (at 237.77 152.35)
     (descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
     (tags "tact sw push 6mm")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -1780,7 +1780,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 2f64f2f5-2ceb-41ea-b1d8-bc6d273a23a6)
-    (at 118.805 201.455)
+    (at 22.86 254)
     (descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x04 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -1860,7 +1860,7 @@
 
   (footprint "Arm_Footprints:TB6560_Breakout" (layer "F.Cu")
     (tstamp 314b1f25-f26f-4436-a637-950a8ada7c32)
-    (at 218.14 72.62)
+    (at 208.28 60.96)
     (property "Sheetfile" "MotorDrivers.kicad_sch")
     (property "Sheetname" "MotorDrivers")
     (path "/bb228902-3eef-4db7-9bf2-e6e1028f63fe/45bd159f-9525-4af2-8282-9a17e446c07a")
@@ -1983,7 +1983,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 3258afab-3403-48e5-9258-72ccff91a075)
-    (at 189.295 144.515)
+    (at 162.0675 259.08)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -2041,7 +2041,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 32c1f5a6-2b51-4d0d-a827-4c9d590e2a20)
-    (at 215.88 202.79)
+    (at 242.29 239.35)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -2095,7 +2095,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 33508800-f781-426b-9b4e-ba08fcad9541)
-    (at 209.93 189.63)
+    (at 289.5475 259.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -2149,7 +2149,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 397f7202-9694-424f-a70f-e7c1831b64f2)
-    (at 171.355 154.335)
+    (at 174.27 252.645)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -2203,7 +2203,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 3a9b2c55-ccbb-4443-94ef-ce454eaa226e)
-    (at 42.525 183.545)
+    (at 40.64 143.256)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -2265,7 +2265,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 3bab1351-0164-4202-9f27-b410ca19cc02)
-    (at 171.355 147.755)
+    (at 174.27 240.6225)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -2319,7 +2319,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp 3d1f311a-01d6-4886-8aa5-804f1440ad73)
-    (at 203.95 183.08)
+    (at 253.04 238.76)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -2373,7 +2373,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 40adeb15-6a3c-4390-8c6b-9124818cd432)
-    (at 221.83 196.21)
+    (at 290.525 246.38)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -2427,7 +2427,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 40fba669-4e8f-4cce-ac47-b4f357bbcca6)
-    (at 209.93 186.34)
+    (at 253.01 233.68)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -2440,7 +2440,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ad3cc593-e649-4da4-96ef-c718cac87ad3)
     )
-    (fp_text value "R" (at 0 1.82) (layer "F.Fab")
+    (fp_text value "R" (at 0.75 1.5) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 09194ef5-3183-46b6-9f6f-20ccaae00d10)
     )
@@ -2481,7 +2481,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 44eee0a1-7569-429a-a5f2-2b9b7d7e250e)
-    (at 128.94 222.48)
+    (at 358.14 226.9)
     (descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x02 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -2553,7 +2553,7 @@
 
   (footprint "Button_Switch_THT:SW_PUSH_6mm" (layer "F.Cu")
     (tstamp 4779a7f6-41ed-4e56-a1eb-5e74a2043249)
-    (at 72.955 209.705)
+    (at 237.77 135.25)
     (descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
     (tags "tact sw push 6mm")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -2635,7 +2635,7 @@
 
   (footprint "Button_Switch_THT:SW_PUSH_6mm" (layer "F.Cu")
     (tstamp 48cd24f4-1edd-43c0-9637-97915b9abd7f)
-    (at 72.955 201.155)
+    (at 237.77 126.7)
     (descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
     (tags "tact sw push 6mm")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -2717,7 +2717,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 4a1101e4-ee47-4a0a-90b8-48109b96e925)
-    (at 215.88 196.21)
+    (at 291.11 233.68)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -2771,7 +2771,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 4a257594-1b2c-45cc-8337-487876a356b1)
-    (at 228 161.52)
+    (at 179.8475 252.815)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -2829,7 +2829,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 4bc10606-0548-4740-b8aa-32aea8e074f6)
-    (at 147.605 201.455)
+    (at 269.24 147.32)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -2905,7 +2905,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 4c6f6d4e-abe0-41b2-b6a6-fcfedfd375dd)
-    (at 195.29 154.685)
+    (at 198.7425 233.68)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -2963,7 +2963,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 4eeffeac-3976-4c9f-90a1-d13f230176eb)
-    (at 165.405 154.335)
+    (at 156.49 243.84)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -3017,7 +3017,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 55c92d69-5f34-43d0-bb37-12f034e2a3b0)
-    (at 202.6 148.82)
+    (at 179.8475 234.315)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -3075,7 +3075,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 581b6ffc-7d8b-4429-889e-83c54305a5a1)
-    (at 189.295 154.685)
+    (at 179.8475 240.03)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -3133,7 +3133,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 58899658-d07e-42b1-bfa7-4a0ad0530361)
-    (at 42.525 192.595)
+    (at 40.64 155.448)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -3195,7 +3195,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 5a5781be-cfe6-4441-9de4-f786326eea9f)
-    (at 42.525 201.645)
+    (at 40.64 167.64)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -3257,7 +3257,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 5ab5848f-ea31-4b05-8644-b4c82bc7fc8e)
-    (at 266.7 177.48)
+    (at 60.96 230.716666)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -3319,7 +3319,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 5be4fb4a-76dd-4226-b257-507553a2eafc)
-    (at 42.525 165.445)
+    (at 21.94 155.448)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -3381,7 +3381,7 @@
 
   (footprint "Arm_Footprints:TB6560_Breakout" (layer "F.Cu")
     (tstamp 5f5904d5-5a56-4400-8e9d-4673ec6cdf75)
-    (at 167.04 72.62)
+    (at 157.18 60.96)
     (property "Sheetfile" "MotorDrivers.kicad_sch")
     (property "Sheetname" "MotorDrivers")
     (path "/bb228902-3eef-4db7-9bf2-e6e1028f63fe/44171bc7-c6c4-4378-859d-1bd4f76590a6")
@@ -3504,7 +3504,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp 5f65018c-3114-43ac-93af-5d3836b2f19e)
-    (at 238.48 192.53)
+    (at 298.8775 235.245)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -3576,7 +3576,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 61c3aa13-4907-4e7c-9373-f6595f690284)
-    (at 266.7 195.58)
+    (at 60.96 260.350002)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -3638,7 +3638,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 6250d7b0-3135-4eee-bd12-637fa39179fd)
-    (at 227.78 192.92)
+    (at 252.9925 246.38)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -3651,7 +3651,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a92deae3-b227-4380-af43-20f8cea8c1ca)
     )
-    (fp_text value "R" (at 0 1.82) (layer "F.Fab")
+    (fp_text value "R" (at 0.99 2.54) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e3ff159d-a0fd-47de-85e3-93ac240ce912)
     )
@@ -3692,7 +3692,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 6beab34f-6b06-40a1-9a3a-d5c086557024)
-    (at 183.3 147.905)
+    (at 162.0675 233.68)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -3750,7 +3750,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 6d723814-beb8-45bc-add3-020753c52f8d)
-    (at 177.305 160.915)
+    (at 121.92 259.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -3804,7 +3804,7 @@
 
   (footprint "Arm_Footprints:TB6560_Breakout" (layer "F.Cu")
     (tstamp 6fd53dd9-b63f-4e7b-ba18-727bdb5402f2)
-    (at 371.44 72.62)
+    (at 361.58 60.96)
     (property "Sheetfile" "MotorDrivers.kicad_sch")
     (property "Sheetname" "MotorDrivers")
     (path "/bb228902-3eef-4db7-9bf2-e6e1028f63fe/fdcbc6db-ddb0-4e68-8492-f1f6e3209a03")
@@ -3927,7 +3927,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 76a7a84c-f0c7-4371-8fb3-94b531d2c34b)
-    (at 233.08 197.08)
+    (at 230.15 246.38)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -3936,7 +3936,7 @@
     (property "ki_keywords" "connector")
     (path "/bb228902-3eef-4db7-9bf2-e6e1028f63fe/8e295004-17e3-4793-8471-160a9edbb64f")
     (attr through_hole)
-    (fp_text reference "J19" (at 1.27 -2.33) (layer "F.SilkS")
+    (fp_text reference "J19" (at 0.3425 -2.54) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b141860a-717a-4ca0-8d49-be60d32ecdef)
     )
@@ -4003,7 +4003,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp 78212077-9e36-4833-9f2f-01d32650b626)
-    (at 203.95 209.88)
+    (at 253.0225 251.46)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -4057,7 +4057,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 7842fc61-bf43-40fb-91f5-586f4e1fd504)
-    (at 97.205 201.455)
+    (at 262.02 127)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -4133,7 +4133,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 7a3583e3-2956-4cf9-898d-e426d5bdf4df)
-    (at 83.805 232.755)
+    (at 248.62 158.3)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -4199,7 +4199,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 7cdd0756-a618-47cf-a769-f1a6e43ecd3f)
-    (at 183.3 151.295)
+    (at 162.0675 238.76)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -4257,7 +4257,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 7dafbd09-ef37-4434-9862-c37e7fd84b76)
-    (at 227.78 189.63)
+    (at 307.47 226.06)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -4311,7 +4311,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 7eb6c086-9443-4128-a787-db17068f9fa7)
-    (at 165.405 157.625)
+    (at 156.49 248.92)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -4365,7 +4365,7 @@
 
   (footprint "Arm_Footprints:TB6560_Breakout" (layer "F.Cu")
     (tstamp 7f0f3905-53a5-4b65-935a-5771acb28439)
-    (at 115.94 72.62)
+    (at 106.08 60.96)
     (property "Sheetfile" "MotorDrivers.kicad_sch")
     (property "Sheetname" "MotorDrivers")
     (path "/bb228902-3eef-4db7-9bf2-e6e1028f63fe/0a1d483c-d086-43aa-a28a-4bc19a749863")
@@ -4488,7 +4488,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 821ec2fb-f773-44b2-a0db-b8f90129e4f4)
-    (at 165.405 125.96)
+    (at 156.49 228.455)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -4505,7 +4505,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a471cfa6-b518-453c-8bec-63ca9830f466)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0.145) (layer "F.Fab")
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp b0eb43cc-3593-4726-9a05-03b9e226eec8)
     )
@@ -4542,7 +4542,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 8743d3e5-bddb-4ac9-ad5b-aedde6da2d38)
-    (at 227.78 199.5)
+    (at 270.84 251.27)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -4596,7 +4596,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 876006d1-4bdc-45db-8a6f-81c794dee0e5)
-    (at 177.305 164.205)
+    (at 191.49 264.16)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -4650,7 +4650,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 8b9cb32d-839f-4ef8-b6ee-1b64c67e1116)
-    (at 165.405 151.045)
+    (at 156.49 238.76)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -4704,7 +4704,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp 8cb41bfc-1adc-4b25-87f9-106d14071cd3)
-    (at 233.33 188.08)
+    (at 261.7675 234.655)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -4776,7 +4776,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 91b20ac0-a183-49fd-8a69-4ede2eef21bc)
-    (at 177.305 151.045)
+    (at 121.92 243.72)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -4830,7 +4830,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 92446a25-ff7b-4f2b-9cc3-74b4a6f2894f)
-    (at 165.405 160.915)
+    (at 156.49 254)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -4884,7 +4884,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 931cee93-0562-4707-b8bb-a23e122eb572)
-    (at 221.83 199.5)
+    (at 291.67 220.98)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -4938,7 +4938,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp 933950de-0a1c-430d-979a-c70f40c90e0a)
-    (at 42.525 174.495)
+    (at 21.94 167.64)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -5000,7 +5000,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 942a30df-de01-478f-9201-cc88ce5474c8)
-    (at 128.94 232.64)
+    (at 160.02 200.66)
     (descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x02 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -5072,7 +5072,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 9769326c-0918-4ce2-9eac-e0c9cf3be7f3)
-    (at 171.355 151.045)
+    (at 174.27 246.63375)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5126,7 +5126,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 97a87481-4d28-443c-96e0-2598e7ffb5f5)
-    (at 227.78 196.21)
+    (at 270.79 246.38)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -5139,7 +5139,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ac1f0188-094b-449c-98ab-c969353ef85a)
     )
-    (fp_text value "10K" (at 0 1.82) (layer "F.Fab")
+    (fp_text value "10K" (at 0.05 3.42) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aacf4aa7-4233-4727-948b-c2f55bd26cee)
     )
@@ -5180,7 +5180,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 9edf8037-73d4-4473-a059-6ddc6be35986)
-    (at 177.305 147.755)
+    (at 192.61 233.68)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5234,7 +5234,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp 9ff46ffc-9414-42e7-8d79-6215eda03700)
-    (at 221.83 202.79)
+    (at 308.33 246.38)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -5288,7 +5288,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp a142d79c-80fd-4328-83cf-877cd3e292ef)
-    (at 171.355 167.495)
+    (at 192.61 238.76)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5342,7 +5342,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp a4db0d49-217f-48fe-ad6a-eb8cbff59a0d)
-    (at 209.93 196.21)
+    (at 240.31 264.16)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -5396,7 +5396,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp a765ee18-71bd-4bb0-b2e0-f0684e2b6cd9)
-    (at 202.6 158.98)
+    (at 198.7425 228.6)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5454,7 +5454,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp a8684532-231d-4dc4-94cd-4b6c78d457ab)
-    (at 238.48 183.63)
+    (at 232.2775 237.785)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -5526,7 +5526,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp a89e33a1-5e89-4af1-802d-08224eb35dcc)
-    (at 221.83 186.34)
+    (at 270.79 259.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -5580,7 +5580,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp a9c59b1f-cd5e-4e30-8826-8a38289280bb)
-    (at 171.355 144.465)
+    (at 174.27 234.61125)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5634,7 +5634,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp aaec9c5e-46e7-4f99-b537-983fac2d4785)
-    (at 195.29 144.515)
+    (at 199.6075 264.16)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5692,7 +5692,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp ad262fb4-ca29-4997-a046-b05bcb13719a)
-    (at 165.405 167.495)
+    (at 174.27 228.6)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5746,7 +5746,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp ad690b1a-61f8-4139-b380-a15e6ea70324)
-    (at 165.405 164.205)
+    (at 156.49 259.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5800,7 +5800,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp af77d871-f3fd-49e4-b507-f725c622376b)
-    (at 209.93 192.92)
+    (at 240.31 259.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -5854,7 +5854,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp b0369f36-cfa7-48cf-bd74-a0ebd336a768)
-    (at 227.78 183.05)
+    (at 308.33 251.46)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -5908,7 +5908,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp b1e6b3de-d82f-4c83-8f89-9e825c2261ec)
-    (at 230.54 166.6)
+    (at 179.8475 246.38)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -5966,7 +5966,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp b40e4bc0-fa60-4bf9-9798-eaaf647b49cd)
-    (at 203.95 189.78)
+    (at 223.5075 264.16)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -6020,7 +6020,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp bc8421db-d426-48eb-8e56-920864b7022b)
-    (at 215.88 183.05)
+    (at 306.35 259.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -6074,7 +6074,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp bd53bdff-271a-4c22-9ebe-01cc88750c67)
-    (at 195.29 147.905)
+    (at 198.7425 238.76)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -6132,7 +6132,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp bd8df3b8-5fa4-428f-b25a-8dff4ed28434)
-    (at 177.305 154.335)
+    (at 121.92 248.84)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -6186,7 +6186,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp bda1a203-95a3-40c9-a409-14941f6f9244)
-    (at 203.95 199.83)
+    (at 222.5425 234.27)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -6240,7 +6240,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp be03b59d-50e4-44b0-8f37-1fb902f4b164)
-    (at 177.305 144.465)
+    (at 192.61 228.6)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -6294,7 +6294,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp c021d3dc-6f5e-4b02-82e0-eaa24eb9a887)
-    (at 203.95 206.53)
+    (at 291.7 226.06)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -6348,7 +6348,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp c0497af0-0fb8-4612-824f-6d1f1700b908)
-    (at 215.88 199.5)
+    (at 242.29 234.27)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -6402,7 +6402,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp c100e771-b118-4003-a93e-12e5fdd91cd7)
-    (at 204.18 218.08)
+    (at 200.545 204.795)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -6464,7 +6464,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp c3d5e1b1-933e-41ef-9f9c-a06076df7498)
-    (at 83.805 223.055)
+    (at 248.62 148.6)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -6530,7 +6530,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp c4ac8882-26e6-49d0-8395-f4dd0eac0ebd)
-    (at 83.805 208.655)
+    (at 248.62 134.2)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -6594,7 +6594,7 @@
 
   (footprint "Arduino_Library:Arduino_Nano_Socket" (layer "F.Cu")
     (tstamp c5975ff2-6c13-4251-8ae6-c0e41e5aa689)
-    (at 344.17 195.58 90)
+    (at 391.6405 193.04 90)
     (descr "https://docs.arduino.cc/hardware/nano")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
     (property "Sheetname" "")
@@ -6780,7 +6780,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp c5a12619-a9bc-43a5-b4b4-e56ce66660b4)
-    (at 183.3 144.515)
+    (at 162.0675 228.6)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -6838,7 +6838,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp c91318a2-ddb3-4287-8837-4c9e1102456c)
-    (at 104.405 201.455)
+    (at 269.22 127)
     (descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x04 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -6918,7 +6918,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp c96f2b40-6fa1-4a62-b5f2-ddefcaea98c7)
-    (at 266.7 186.53)
+    (at 60.96 245.533332)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -6980,7 +6980,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp cc673835-6a15-4b4e-9a9a-76f60ff145bf)
-    (at 183.3 154.685)
+    (at 162.0675 243.84)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7038,7 +7038,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp ce207ab4-e125-4703-aa15-bf1c6ca5906b)
-    (at 203.95 186.43)
+    (at 289.56 264.16)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -7092,7 +7092,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp d07bd042-ada1-4908-8df8-b619132ae3a4)
-    (at 221.83 192.92)
+    (at 307.9 239.51)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -7146,7 +7146,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp d2129281-e70b-4790-856f-07522a07b2cc)
-    (at 171.355 157.625)
+    (at 121.92 228.36)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7200,7 +7200,7 @@
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp d568ccff-39a5-472f-b0e7-848a3d10bc40)
-    (at 183.3 161.465)
+    (at 162.0675 254)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7258,7 +7258,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp d59839c8-49d6-4d7e-b089-e90b3eb1ec23)
-    (at 171.355 160.915)
+    (at 121.92 233.48)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7312,7 +7312,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp d871e1ae-05be-4024-8005-0f924086dd06)
-    (at 266.7 141.28)
+    (at 81.28 231.986668)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7374,7 +7374,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp dbea8798-c1a0-4012-9a32-457a07ad0bf7)
-    (at 42.525 156.395)
+    (at 21.94 143.256)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -7383,7 +7383,7 @@
     (property "ki_keywords" "screw terminal")
     (path "/4c08a37f-706b-427e-9b3b-d9c1f16fc87e")
     (attr through_hole)
-    (fp_text reference "J13" (at 164.195 65.655) (layer "F.SilkS")
+    (fp_text reference "J13" (at 2.54 -5.08) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 13f6422f-8769-4653-8edf-a5fe8b00aa7b)
     )
@@ -7391,7 +7391,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 76a63c35-caf0-43a5-a906-b356adffbbfc)
     )
-    (fp_text user "${REFERENCE}" (at 164.195 70.735) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 2.54 0) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 03ed6e60-aabd-43a0-90b0-890c83379df1)
     )
@@ -7436,7 +7436,7 @@
 
   (footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6" (layer "F.Cu")
     (tstamp dc563b56-2b6d-4ad6-a5ba-bd7ea24d0a9b)
-    (at 165.405 175.915)
+    (at 191.78 251.46)
     (descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
     (tags "buzzer")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7486,7 +7486,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tstamp de095d33-272a-487f-9225-d06aaeeb0422)
-    (at 266.7 150.33)
+    (at 81.28 246.803334)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7548,7 +7548,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp deb482c9-2663-4f38-a9c2-d77ca451de4c)
-    (at 182.605 165.485)
+    (at 134.62 236.22)
     (descr "Through hole straight pin header, 2x07, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x07 2.54mm double row")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7557,7 +7557,7 @@
     (property "ki_keywords" "connector")
     (path "/a2334ba5-1850-46f4-bffc-d5605cf0d4a8/00591919-a39e-42fa-a792-4bf8d6ca5c37")
     (attr through_hole)
-    (fp_text reference "J6" (at 1.27 -2.33) (layer "F.SilkS")
+    (fp_text reference "J6" (at 0.275 -2.925) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 92f5e8ba-3add-4d8f-a5d9-f8f2b44d1fa3)
     )
@@ -7640,7 +7640,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp e2cf1037-0e29-4a65-bba8-4f63b8a5a034)
-    (at 227.78 186.34)
+    (at 307.47 220.23)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -7694,7 +7694,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp e4752233-4a69-440a-a8d8-485ad9e4e9dc)
-    (at 111.605 201.455)
+    (at 276.42 127)
     (descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x04 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -7774,7 +7774,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp e607ff5a-3458-48dc-aa62-246255d70cb6)
-    (at 177.305 157.625)
+    (at 121.92 253.96)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7828,7 +7828,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp e858061e-8ca3-46ec-984f-97a66b8d9d0f)
-    (at 165.405 147.755)
+    (at 156.49 233.68)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "UXElements.kicad_sch")
@@ -7882,7 +7882,7 @@
 
   (footprint "Arm_Footprints:TB6560_Breakout" (layer "F.Cu")
     (tstamp e94bbd90-0653-4867-a7a1-98a77d020f9e)
-    (at 64.84 72.62)
+    (at 54.98 60.96)
     (property "Sheetfile" "MotorDrivers.kicad_sch")
     (property "Sheetname" "MotorDrivers")
     (path "/bb228902-3eef-4db7-9bf2-e6e1028f63fe/79ffb93d-0008-49a8-b538-5d1901edcb9a")
@@ -8005,7 +8005,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp ec1d38b2-0d6a-48e4-bb22-27464d59ae0c)
-    (at 221.83 189.63)
+    (at 307.9 233.68)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -8059,7 +8059,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tstamp ec6a6b52-aca5-4f33-ab4a-2663196624a4)
-    (at 209.93 202.79)
+    (at 269.8 233.68)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -8113,7 +8113,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp ed834a31-1a58-487e-992d-7fd4d6f8f8a1)
-    (at 118.78 158.98)
+    (at 231.14 221.57)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -8189,7 +8189,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp efc53575-bce8-498e-ae8e-7807d0375325)
-    (at 126.005 201.455)
+    (at 22.86 238.76)
     (descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x04 2.54mm double row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -8269,7 +8269,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp f0786bd5-339a-4c5f-bc45-4f4d0b3f8f5d)
-    (at 153.2025 124.985)
+    (at 298.5825 250.485)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -8341,7 +8341,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-8" (layer "F.Cu")
     (tstamp f37417a6-6e49-4e55-83c5-da37a06a1a58)
-    (at 238.48 188.08)
+    (at 262.7575 263.185)
     (descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -8413,7 +8413,7 @@
 
   (footprint "Button_Switch_THT:SW_PUSH_6mm" (layer "F.Cu")
     (tstamp f3f24b3a-18db-4b05-a29e-2655ed8daf55)
-    (at 72.955 218.255)
+    (at 237.77 143.8)
     (descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
     (tags "tact sw push 6mm")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -8495,7 +8495,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp f5f1d883-f025-49b5-8c29-9bc5a159ba38)
-    (at 203.95 193.13)
+    (at 253.5825 264.16)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -8549,7 +8549,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp f8a773b7-ce04-411e-b5bd-932fa8df0709)
-    (at 83.805 215.855)
+    (at 386.08 226.06)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "Arm_PCB.kicad_sch")
@@ -8613,7 +8613,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp fafb0a95-7403-4d61-b2f9-db655ab53a6b)
-    (at 203.95 203.18)
+    (at 290.5375 251.46)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "MotorDrivers.kicad_sch")
@@ -8787,7 +8787,7 @@
       (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp 03a873a1-6288-48dc-a761-f3d824d20518))
     (fp_arc (start 94.488 -0.254) (mid 96.52 -0.914237) (end 98.552 -0.254)
       (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp d2b32b5f-c78e-425a-ae0f-a89c211b2ca2))
-    (fp_arc (start 99.314 0.508) (mid 99.650919 1.077975) (end 99.8728 1.7018)
+    (fp_arc (start 99.314 0.508) (mid 99.650928 1.077972) (end 99.8728 1.7018)
       (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp 49e59a93-e73d-49c2-afb4-b04db44ec530))
     (fp_circle (center 13.97 2.54) (end 17.17 2.54)
       (stroke (width 0.15) (type solid)) (fill none) (layer "B.Fab") (tstamp 93f9e0a5-871c-4fcb-85b1-48066f4b0284))
