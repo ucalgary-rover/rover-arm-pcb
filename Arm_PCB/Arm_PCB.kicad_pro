@@ -488,6 +488,10 @@
       {
         "netclass": "Power_Motor",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power_General",
+        "pattern": "*S_POWER*"
       }
     ]
   },
