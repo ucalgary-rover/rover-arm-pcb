@@ -492,6 +492,14 @@
       {
         "netclass": "Power_General",
         "pattern": "*S_POWER*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SERVO_SIG_1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SERVO_SIG_2"
       }
     ]
   },
